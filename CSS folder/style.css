@@ -14,7 +14,7 @@ body{
         color: white;
       }
 nav{
-  width: 100vw;
+  width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -191,7 +191,7 @@ hr{
   }
 
   nav{
-    width: 100vw; 
+    width: 100%; 
     /* padding: 5px; */
   }
   .leftnav{
@@ -243,13 +243,14 @@ footer{
 }
 .socialfoot{
     display: flex;
-    gap: 60px;
+    gap: 20px;
 }
 
 hr{
     width: 100vw;
 }
 .footer{
+    font-size: 0.5rem;
     padding: 10px;
 }
 

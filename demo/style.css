@@ -1,0 +1,96 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Poppins", sans-serif;
+  
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  background-color: rgb(67, 68, 68);
+  color: white;
+  height: 50px;
+  padding: 20px;
+}
+.header{display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 20px;
+
+}
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-direction: column;
+  gap: 30px;
+}
+label{
+  font-size: 50px;
+}
+select{
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.button{
+  padding: 5px;
+  border-radius: 10px;
+  animation: 0.5s;
+  cursor: pointer;
+}
+.button:hover{
+  color: #ccc;
+  border: 2px solid #ccc;
+}
+#quote{
+  color: red;
+  font-size: 30px;
+  background: #ccc;
+  width: 90vw;
+  border-radius: 10px;
+
+}
+  /* styles.css */
+body.dark-mode {
+    background-color: rgb(21, 21, 21);
+    color: #fff;
+  }
+  body.dark-mode header {
+    background-color: rgb(7, 0, 11);
+    color: #fff;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  .nav{
+    display: flex;
+    gap: 20px;
+  }
+  @media only screen and (max-width: 600px) {
+    .time {
+      gap: 20px; /* Further reduced the gap for smaller screens */
+    }
+    main{
+      text-align: center;
+    }
+  
+    header{
+      width: 100vw;
+    }
+    .leftnav{
+      font-size: 0.8rem;
+  }
+  ul li a{
+    padding: 0px 5px; 
+    font-size: 0.5rem;
+  }
+  
+}

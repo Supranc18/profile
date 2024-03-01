@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Demo project</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <div>Demo Project</div>
+    <div class="header">
+      <div class="nav">
+        <a href="../index.html">HOME</a>
+        <a href="../project.html">PROJECTS</a>
+        <a href="../about.html">ABOUT</a>
+      </div>
+  </header>
+  <main>
+    <label for="categories">Select a category</label>
+    <div class="contain">
+      <select id="categories">
+        <option value="select">Select</option>
+        <option value="science">Science</option>
+        <option value="motivation">Motivational</option>
+      </select>
+      <button id="random" class="button ran">Random</button>
+    </div>
+    <div id="quote"></div>
+
+    <div class="size">
+      <button class="size-btn" id="increase">+</button>
+      <button class="size-btn" id="decrease">-</button>
+    </div>
+    <div>
+      <button id="next" class="button">Next</button>
+      <button id="previous" class="button">Previous</button>
+    </div>
+  </main>
+  <script src="dark.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

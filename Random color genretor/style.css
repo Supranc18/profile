@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    transition: 1s;
+
+}
+.box{
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#text{
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    font-size: 30px;
+    
+}
+button{
+    background-color: white;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: 1s;
+    cursor: pointer;
+    font-weight: 600;
+}
+button:hover{
+    color: gray;
+    background-color: black;
+}
+/* nav */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;  
+    background-color:rgb(12, 12, 68) ; 
+    height: 60px;
+  }
+  .leftnav{
+    font-size: 1.5rem;
+  }
+  
+  ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+    
+  }
+  ul li a{
+    text-decoration: none;
+    padding: 0px 50px;
+    color: white;
+    transition: 0.2s;
+   
+    
+  }
+  ul li a:hover{
+    color: rgba(255, 255, 255, 0.432);
+    font-size: 1.03rem;
+    border:2px solid rgba(255, 255, 255, 0.432)
+    
+  }
+  a{
+    font-size: 20px;
+    
+  }
+  .leftnav{color: white;}
+  @media only screen and (max-width: 600px) {
+    .time {
+      gap: 20px; /* Further reduced the gap for smaller screens */
+    }
+  
+    nav{
+      width: 100vw; 
+      /* padding: 5px; */
+    }
+    .leftnav{
+      font-size: 0.8rem;
+  }
+  ul li a{
+    padding: 0px 5px; 
+    font-size: 0.5rem;
+  }
+  .switch {
+    width: 40px;
+    height: 25px;
+  }
+}

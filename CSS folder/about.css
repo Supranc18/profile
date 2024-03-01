@@ -1,0 +1,83 @@
+
+.about{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.me{
+    width:300px;
+    padding-right: 20px;
+}
+.top{
+    display: flex;
+   
+}
+
+.hr{
+    margin: 30px;
+    width:90vw;
+    height: 3px;    
+}
+section ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+li span{
+    
+    font-size: 10px;
+    font-weight: 800;
+    padding: 5px;
+   display: block;
+   width: 400px;
+   border-radius: 20px;
+   color: black;
+}
+.html{
+    background: linear-gradient(to right, rgb(244, 53, 53) 95%, rgb(119, 119, 119) 5%);
+}
+.css{
+    background: linear-gradient(to right, rgb(244, 53, 53) 90%, rgb(119, 119, 119) 10%);
+}
+.java{
+    background: linear-gradient(to right, rgb(244, 53, 53) 75%, rgb(119, 119, 119) 25%);
+}
+.responsive{
+    background: linear-gradient(to right, rgb(244, 53, 53) 100%, rgb(119, 119, 119) 0%);
+}
+.react{
+    background: linear-gradient(to right, rgb(244, 53, 53) 55%, rgb(119, 119, 119) 45%);
+}
+
+@media only screen and (max-width: 600px) {
+    .time {
+      gap: 20px; /* Further reduced the gap for smaller screens */
+    }
+    
+    .about{
+        padding: 10px;
+    }
+    .top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .me{
+        width:200px;
+        padding-right: 10px;
+    }
+    
+    .hr{
+        margin: 20px;
+        width:90vw;
+        height: 3px;    
+    }
+    li span{
+       width: 200px;
+       
+    }
+}
+    

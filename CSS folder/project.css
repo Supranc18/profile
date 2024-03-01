@@ -1,0 +1,65 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+img{
+    width: 200px;
+}
+.counter{
+    width: 300px;
+
+}
+.box{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.containor{
+    display:grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+}
+.a a{
+    color: red;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .time {
+      gap: 20px; /* Further reduced the gap for smaller screens */
+    }
+    main{
+        gap: 20px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    img{
+        width: 100px;
+    }
+    .counter{
+        width: 200px;
+    
+    }
+    .box{
+        padding: 20px;
+        border-radius: 5px;
+    }
+    .containor{
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .a a{
+        font-size: 30px;
+    }
+    
+
+}

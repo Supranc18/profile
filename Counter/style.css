@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("back.jpg");
+  color: white;
+  font-size: 40px;
+}
+.context{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px;
+}
+
+.time{
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.time div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+input{
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  font-size: 35px;
+  border-radius: 10px;
+}
+
+
+/* Media Query for smaller screens */
+@media only screen and (max-width: 600px) {
+  .time {
+    gap: 20px; /* Further reduced the gap for smaller screens */
+  }
+  body{
+    font-size: 10px;
+    text-align: center;
+  }
+
+  input {
+    height: 40px; /* Adjusted input height for smaller screens */
+    width: 80px; /* Adjusted input width for smaller screens */
+    font-size: 25px; /* Reduced font size for smaller screens */
+  }
+}
+/* nav */
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;  
+  background-color:rgb(12, 12, 68) ; 
+  height: 60px;
+}
+.leftnav{
+  font-size: 1.5rem;
+}
+
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  
+  
+}
+ul li a{
+  text-decoration: none;
+  padding: 0px 50px;
+  color: white;
+  transition: 0.2s;
+ 
+  
+}
+ul li a:hover{
+  color: rgba(255, 255, 255, 0.432);
+  font-size: 1.03rem;
+  border:2px solid rgba(255, 255, 255, 0.432)
+  
+}
+a{
+  font-size: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .time {
+    gap: 20px; /* Further reduced the gap for smaller screens */
+  }
+
+  nav{
+    width: 100vw; 
+    /* padding: 5px; */
+  }
+  .leftnav{
+    font-size: 0.8rem;
+}
+ul li a{
+  padding: 0px 5px; 
+  font-size: 0.5rem;
+}
+.switch {
+  width: 40px;
+  height: 25px;
+}
+}
